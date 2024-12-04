@@ -22,7 +22,6 @@
 
 /* Begin PBXBuildFile section */
 		210C1C162CEEE13800D5950A /* XenditCardHolderInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210C1C152CEEE13800D5950A /* XenditCardHolderInformation.swift */; };
-		648184A52BF7556800DC5FBF /* Sentry in Frameworks */ = {isa = PBXBuildFile; productRef = 648184A42BF7556800DC5FBF /* Sentry */; };
 		648184A82BF7558D00DC5FBF /* OHHTTPStubs in Frameworks */ = {isa = PBXBuildFile; productRef = 648184A72BF7558D00DC5FBF /* OHHTTPStubs */; };
 		648184AA2BF7558D00DC5FBF /* OHHTTPStubsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 648184A92BF7558D00DC5FBF /* OHHTTPStubsSwift */; };
 		OBJ_736 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Extensions.swift */; };
@@ -177,7 +176,6 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_771 /* XenditObjC.framework in Frameworks */,
-				648184A52BF7556800DC5FBF /* Sentry in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +429,6 @@
 			);
 			name = Xendit;
 			packageProductDependencies = (
-				648184A42BF7556800DC5FBF /* Sentry */,
 			);
 			productName = Xendit;
 			productReference = "xendit-sdk-ios-src::Xendit::Product" /* Xendit.framework */;
@@ -493,7 +490,6 @@
 			);
 			mainGroup = OBJ_5;
 			packageReferences = (
-				648184A32BF7556800DC5FBF /* XCRemoteSwiftPackageReference "sentry-cocoa" */,
 				648184A62BF7558D00DC5FBF /* XCRemoteSwiftPackageReference "OHHTTPStubs" */,
 			);
 			productRefGroup = OBJ_390 /* Products */;
@@ -975,14 +971,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		648184A32BF7556800DC5FBF /* XCRemoteSwiftPackageReference "sentry-cocoa" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/getsentry/sentry-cocoa.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 8.35.0;
-			};
-		};
 		648184A62BF7558D00DC5FBF /* XCRemoteSwiftPackageReference "OHHTTPStubs" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/AliSoftware/OHHTTPStubs.git";
@@ -994,11 +982,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		648184A42BF7556800DC5FBF /* Sentry */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 648184A32BF7556800DC5FBF /* XCRemoteSwiftPackageReference "sentry-cocoa" */;
-			productName = Sentry;
-		};
 		648184A72BF7558D00DC5FBF /* OHHTTPStubs */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 648184A62BF7558D00DC5FBF /* XCRemoteSwiftPackageReference "OHHTTPStubs" */;

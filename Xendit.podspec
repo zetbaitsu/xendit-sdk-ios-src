@@ -19,7 +19,6 @@ Pod::Spec.new do |s|
   # Default subspec that includes the most commonly-used components
   s.subspec 'Default' do |default|
     default.dependency 'Xendit/XenditObjC'
-    default.dependency 'Sentry', '8.40.1'
     default.source_files = 'Sources/Xendit/**/*.swift'
   end
 
